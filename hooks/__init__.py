@@ -1,7 +1,3 @@
-
-__version__ = '0.1.0'
-
-
 class Hooks:
     """
     Simple implementation of the observer pattern

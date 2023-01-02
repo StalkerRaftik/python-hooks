@@ -37,11 +37,11 @@ class Logger:
 
     @staticmethod
     def log_pre_draw(screen):
-        print('Logging pre-draw screen data...', screen[0][0], sep='\n')
+        print('Logging pre-draw screen data...', screen[0][0])
 
     @staticmethod
     def log_post_draw(screen):
-        print('Logging post-draw screen data...', screen[0][0], sep='\n')
+        print('Logging post-draw screen data...', screen[0][0])
 
 
 scr = Screen(10, 10)
